@@ -1,0 +1,20 @@
+html, body {
+    height: 100%; /* Make sure the body takes up the full viewport height */
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Ensure the container takes at least the full viewport height */
+}
+
+.content-wrap {
+    flex: 1; /* Allow the content to grow and fill the available space */
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
